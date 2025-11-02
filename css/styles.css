@@ -1,0 +1,77 @@
+
+body{
+    background-color:blanchedalmond;
+    
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    color: rgb(53, 46, 40);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    position: relative;
+   display: inline-block;
+   
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: #f7b749;
+    z-index: -1;
+}
+
+
+.dotted-line {
+  border-top: 2px dotted #5a4a3c;
+  height: 0;
+  margin: 50px ;
+}
+
+.gradiant{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    background: linear-gradient(to right, #2db84d, #b5b752);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+p{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+}
+
+.btn{
+    background-color: #FF7F27;
+}
+
+.btn:hover{
+    background-color: #FF7F27;
+}
+
+
+.visit-btn{
+    background-color: #a7b94e;;
+}
+.delete-btn{
+    background-color: red;
+}
+
+th{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    line-height: 24px;
+}

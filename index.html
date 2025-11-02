@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section >
+        <div class="container my-4 py-3 ">
+            <div class="d-flex justify-content-center">
+                <h1 class="text-center">Bookmarker</h1>
+            </div>
+            <div class="dotted-line"></div>
+            <div class="d-flex justify-content-center">
+                <h2 class="gradiant text-center ">
+                <i class="fa-solid fa-bookmark"></i>
+                Bookmark your favorite sites
+                <i class="fa-solid fa-bookmark"></i>
+            </h2>
+            </div>
+            <p>
+                <i class="fa-solid fa-book-bookmark"></i>
+                Site Name
+            </p>
+            <input type="text" id="Sname" class="form-control my-3" placeholder="Bookmark Name" >
+
+            <p>
+                <i class="fa-solid fa-link"></i>
+                Site URL
+            </p>
+            <input type="text" id="url" class="form-control my-3" placeholder="Website URL">
+            <button class="btn  d-grid mx-auto" onclick="addURL()"> Submit </button>
+
+            <div class="dotted-line"></div>
+
+        </div>
+       
+           
+        
+    
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="inner">
+                    <table class="border-0 w-100 bg-white">
+                         <thead >
+                            <tr >
+                                <th>Index</th>
+                                <th>Website</th>
+                                <th>Visit</th>
+                                <th>Delete</th>
+                            </tr>
+                         </thead>
+                         <tbody id="rowData">
+
+                         </tbody>
+                         
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
